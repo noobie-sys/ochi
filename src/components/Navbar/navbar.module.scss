@@ -1,28 +1,29 @@
-
-$founders : "Test Founders Grotesk X-Condensed";
-$neue : "Neue Montreal";
+$founders: "Test Founders Grotesk X-Condensed";
+$neue: "Neue Montreal";
 
 .navbar {
-    width: 100%;
-    padding: 10px 30px;
-    font-size: 2rem;
-    font-family: $neue;
-    display: flex;
-    justify-content: space-between;
-    font-weight: 500;
-    align-items: center;
-    position: fixed;
+  width: 100%;
+  padding: 1vw 3.4vw;
+  font-size: 2rem;
+  font-family: $neue;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  align-items: center;
+  position: fixed;
+  color: black;
 
-
-}
-.links {
+  .links {
     display: flex;
-    gap: 20px;
+    gap: 2.5rem;
     cursor: pointer;
     display: relative;
-}
+    justify-content: space-between;
+  }
 
-.link__item {
-    font-size: 1.9rem;
+  .link__item {
+    font-family: $neue;
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
 }
-

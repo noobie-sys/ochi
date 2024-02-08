@@ -1,0 +1,53 @@
+@import "../abstract/_typography";
+.marquee_header {
+  width: 100%;
+  padding: 4rem 0;
+  overflow: hidden;
+  height: 50vh;
+  background: #004d43;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+  .marquee__element {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    .marquee__group {
+        animation: scroll 35s linear infinite reverse;
+        display: flex;
+        gap: 3vw;
+
+      span {
+        font-size: 20vw;
+        letter-spacing: 0;
+        line-height: 1;
+        white-space: nowrap;
+        text-transform: uppercase;
+        color: white;
+        font-family: $founders;
+        margin: -2rem 0;
+
+        &:last-child {
+          margin-right: 3vw;
+        }
+      }
+
+      
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(calc(100% ));
+        }
+      }
+    }
+    }
+}
+
+

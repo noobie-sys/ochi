@@ -37,10 +37,10 @@ const Navbar = () => {
         </svg>
       </div>
       <div className={style.links}>
-        {["Services", "Our Works", "About us", "Insights", "Contact us "].map(
+        {["Services", "Our works", "About us", "Insights", "Contact us "].map(
           (el, i) => {
             return (
-              <Link href={"#"} className={`${style.link__item} ${i === 4 && "ml-[20rem] pr-4"}`} key={i}>
+              <Link href={"#"} className={`${style.link__item} ${i === 4 && "ml-[25rem] pr-4"}`} key={i}>
                 {el}
               </Link>
             );
