@@ -1,27 +1,54 @@
+@import "../abstract/_mixins";
+
 .invite_component {
-    width: 100%;
-    height: 100vh;
-    padding: 10rem;
-    display: flex;
-    gap: 3rem;
-    justify-content: center;
-    align-items: center;
-    .invite_card_1 {
-        width: 50%;
-        height: 50vh;
-        background-color: red;
-        border-radius: 2rem;
+  width: 100%;
+  height: 100vh;
+  padding: 6rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  .invite_card_1 {
+    width: 50%;
+    height: 50vh;
+    background-color: #004d43;
+    border-radius: 2rem;
+
+    position: relative;
+    @include cardDetails;
+
+    h1 {
+      border: 1px solid #cdea68;
+      color: #cdea68;
+      font-size: 1.4rem;
     }
-    .invite_card_2 {
-        width: 25%;
-        height: 50vh;
-        background-color: rgb(0, 255, 119);
-        border-radius: 2rem;
-    }
-    .invite_card_3 {
-        width: 25%;
-        height: 50vh;
-        background-color: rgb(47, 0, 255);
-        border-radius: 2rem;
-    }
+  }
+}
+.invite_card_2 {
+  width: 25%;
+  height: 50vh;
+  background-color: #202020;
+  border-radius: 2rem;
+  position: relative;
+  
+  @include cardDetails;
+
+  h1 {
+    border: 1px solid white;
+    color: white;
+    font-size: 1.4rem;
+  }
+}
+.invite_card_3 {
+  width: 25%;
+  height: 50vh;
+  background-color: #202020;
+  border-radius: 2rem;
+  position: relative;
+  @include cardDetails;
+  h1 {
+    color: white;
+    border: 1px solid white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
 }

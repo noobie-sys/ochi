@@ -1,7 +1,29 @@
 @mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 998;
+}
+
+@mixin cardDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 7vw;
+    height: 7vw;
+    object-fit: contain;
+  }
+  .invite_card_1_text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 998;
+    bottom: 0;
+    left: 0;
+    padding: 4rem 6rem;
+
+    h1 {
+      padding: 1rem 4rem;
+      border-radius: 4rem;
+    }
+  }
 }

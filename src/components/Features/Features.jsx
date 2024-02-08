@@ -3,6 +3,8 @@ import style from '@/Scss/components/_features.module.scss'
 import Card from '@/layout/card'
 import image from '../../../public/illus.png'
 import image2 from '../../../public/illus-2.jpg'
+import image3 from '../../../public/image-1.jpg'
+import image4 from '../../../public/image-2.png'
 
 const Features = () => {
   return (
@@ -16,8 +18,8 @@ const Features = () => {
 
             <Card image={image} heading={"FYDE"} dir={"left-full"} />
             <Card image={image2} heading={"VISE"} dir={"right-[80%]"} />
-            <Card image={image} heading={"Trawa"} dir={"left-full"} />
-            <Card image={image2} heading={"PremiumBlend"} dir={"right-[80%]"} />
+            <Card image={image3} heading={"Trawa"} dir={"left-full"} />
+            <Card image={image4} heading={"PremiumBlend"} dir={"right-[80%]"} />
             </div>
         </div>
     </div>
