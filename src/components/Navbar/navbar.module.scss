@@ -6,24 +6,33 @@ $neue: "Neue Montreal";
   padding: 1vw 3.4vw;
   font-size: 2rem;
   font-family: $neue;
-  display: flex;
-  justify-content: space-between;
-  font-weight: 500;
-  align-items: center;
+  z-index: 998;
   position: fixed;
-  color: black;
+  backdrop-filter: blur(19px);
 
-  .links {
+  .nav {
+    width: 100%;
+    height: fit-content;
     display: flex;
-    gap: 2.5rem;
-    cursor: pointer;
-    display: relative;
     justify-content: space-between;
-  }
+    font-weight: 500;
+    align-items: center;
+    color: black;
+    padding: 0 1rem;
+    position: relative;
 
-  .link__item {
-    font-family: $neue;
-    font-size: 1.7rem;
-    font-weight: 200;
+    .links {
+      display: flex;
+      gap: 2.5rem;
+      cursor: pointer;
+      display: relative;
+      justify-content: space-between;
+    }
+
+    .link__item {
+      font-family: $neue;
+      font-size: 1.7rem;
+      font-weight: 200;
+    }
   }
 }

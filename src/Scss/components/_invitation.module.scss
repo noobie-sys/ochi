@@ -1,0 +1,27 @@
+.invite_component {
+    width: 100%;
+    height: 100vh;
+    padding: 10rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    .invite_card_1 {
+        width: 50%;
+        height: 50vh;
+        background-color: red;
+        border-radius: 2rem;
+    }
+    .invite_card_2 {
+        width: 25%;
+        height: 50vh;
+        background-color: rgb(0, 255, 119);
+        border-radius: 2rem;
+    }
+    .invite_card_3 {
+        width: 25%;
+        height: 50vh;
+        background-color: rgb(47, 0, 255);
+        border-radius: 2rem;
+    }
+}

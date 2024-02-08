@@ -6,6 +6,8 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div className={`${style.navbar}`}>
+      <div className={style.nav}>
+
       <div className={style.logo}>
         <svg
           width="72"
@@ -46,6 +48,7 @@ const Navbar = () => {
             );
           }
         )}
+      </div>
       </div>
     </div>
   );
