@@ -1,3 +1,5 @@
+import About from "@/components/About/About";
+import Eyes from "@/components/Eyes/Eyes";
 import LandingPage from "@/components/LandingPage/LandingPage";
 import Navbar from "@/components/Navbar/Navbar";
 import Marquee from "@/components/marquee/Marquee";
@@ -9,6 +11,8 @@ export default function Home() {
       <section className="text-[8rem]">
         <LandingPage />
         <Marquee />
+        <About />
+        <Eyes />
       </section>
     </main>
   );

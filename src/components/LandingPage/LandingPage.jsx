@@ -13,7 +13,7 @@ const LandingPage = () => {
       <div className={`${style.text_structure}`}>
         {heading__element.map((el, i) => {
           return (
-            <div className={`${style.masker}`}>
+            <div className={`${style.masker}`} key={i}>
                 {i === 1 && (
                     <div className={`${style.heading__box}`}></div>
                 )}
@@ -26,7 +26,7 @@ const LandingPage = () => {
       </div>
       <div className={`${style.landing__footer}`}>
         {achievements.map((el, i) => {
-          return <p className={`${style.landing__footer__text}`}>{el}</p>;
+          return <p className={`${style.landing__footer__text}`} key={i}>{el}</p>;
         })}
         <div className={style.start}>
           <div className={style.btn}>Start the Project</div>

@@ -1,0 +1,67 @@
+@import "../abstract/_typography";
+.about_element {
+  width: 100%;
+  background: #cdea68;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  margin-top: -2vw;
+  h1 {
+    font-size: 3vw;
+    font-family: $neue;
+    line-height: 6rem;
+    width: 80%;
+    font-weight: lighter;
+
+    padding: 7rem;
+  }
+  .about_detail {
+    border-top: 1px solid gray;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding: 2rem;
+    .about_detail__text{
+        width: 50%;
+        padding: 4rem 7rem;
+        h2 {
+            font-size: 3vw;
+            font-family: $neue;
+            font-weight: lighter;
+            font-family: $neue;
+        }
+        button {
+            display: flex;
+            gap: 3rem;
+            align-items: center;
+            padding: 2rem 4rem;
+            background-color: rgba(37, 36, 36, 0.971);
+            color: white;
+            font-size: 1.4rem;
+            border-radius: 5vw;
+            margin-top: 2rem;
+            .button__icon {
+                width: 1.5rem;
+                height: 1.5rem;
+                border-radius: 50%;
+                background-color: white;
+                margin-left: 1rem;
+            }
+        }
+    }
+    .about_detail__image {
+        height: 70vh;
+        width: 50%;
+        background: rgb(89, 90, 89 ,0.4);
+        border-radius: 4rem;
+        overflow: hidden;
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            object-position: center;
+        }
+
+    }
+  }
+}
