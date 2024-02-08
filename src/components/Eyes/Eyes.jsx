@@ -30,6 +30,7 @@ const Eyes = () => {
   return (
     <div className={style.eyes}>
       <div data-scroll  data-scroll-speed="-.7" className={`${style.eyes_element}`}>
+        <div className={style.eye_balls}>
         <div className={`${style.eye_}`}>
           <motion.div
             className={`${style.eye_white_space}`}
@@ -62,7 +63,7 @@ const Eyes = () => {
               <div className={`${style.eye_ball}`}></div>
             </div>
           </div>
-        </div>
+        </div></div>
       </div>
     </div>
   );

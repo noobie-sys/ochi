@@ -1,6 +1,8 @@
 $founders: "Test Founders Grotesk X-Condensed";
 $neue: "Neue Montreal";
 
+@import "../../Scss/abstract/mixins";
+
 .navbar {
   width: 100%;
   padding: 1vw 3.4vw;
@@ -33,6 +35,10 @@ $neue: "Neue Montreal";
       font-family: $neue;
       font-size: 1.7rem;
       font-weight: 200;
+      position: relative;
+      width: fit-content;
+
+      @include hoverWidthEffect;
     }
   }
 }

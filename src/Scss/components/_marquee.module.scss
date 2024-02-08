@@ -3,7 +3,7 @@
   width: 100%;
   padding: 4rem 0;
   overflow: hidden;
-  height: 50vh;
+  height: 60vh;
   background: #004d43;
   border-top-left-radius: 4rem;
   border-top-right-radius: 4rem;
@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   user-select: none;
+  margin-top: -2vw;
 
   .marquee__element {
     border-top: 1px solid gray;

@@ -4,7 +4,9 @@
   background: #cdea68;
   border-top-left-radius: 4rem;
   border-top-right-radius: 4rem;
-  margin-top: -2vw;
+  margin-top: -12vw;
+  position: relative;
+  z-index: 401;
   h1 {
     font-size: 3vw;
     font-family: $neue;

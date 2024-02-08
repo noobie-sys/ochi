@@ -1,4 +1,5 @@
 @import "../abstract/_typography";
+@import "../abstract/mixins";
 
 .footer {
   width: 100%;
@@ -6,6 +7,7 @@
   font-family: $founders;
   display: flex;
   padding: 1.5rem;
+  border-top: 1px solid gray;
 
   .footer_div_1 {
     width: 50%;
@@ -52,9 +54,14 @@
           .social_media_popular_links {
             display: flex;
             flex-direction: column;
+            position: relative;
             a {
               font-size: 1vw;
-              letter-spacing: -0.01rem;
+              letter-spacing: 0.4rem;
+              position: relative;
+              margin-bottom: 0.5rem;
+              width: fit-content;
+              @include hoverWidthEffect;
             }
           }
         }
@@ -66,9 +73,22 @@
           .location_inner_div_1 {
             display: flex;
             flex-direction: column;
+            position: relative;
             a {
               font-size: 1vw;
+              position: relative;
+              width: fit-content;
+
+              @include hoverWidthEffect;
             }
+          }
+        }
+        .email {
+          a {
+            font-size: 1vw;
+            position: relative;
+            width: fit-content;
+            @include hoverWidthEffect;
           }
         }
         .location_inner_div_2 {
@@ -76,6 +96,9 @@
           flex-direction: column;
           a {
             font-size: 1vw;
+            position: relative;
+            width: fit-content;
+            @include hoverWidthEffect;
           }
         }
       }
@@ -105,10 +128,12 @@
               a {
                 font-size: 1.2vw;
                 letter-spacing: -0.01rem;
+                position: relative;
+                width: fit-content;
+                @include hoverWidthEffect
               }
             }
           }
-          
         }
       }
     }

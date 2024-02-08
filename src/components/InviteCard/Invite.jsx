@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Invite = () => {
   return (
-    <div className={style.invite_component}>
+    <div   className={style.invite_component}>
       <div className={style.invite_card_1}>
         <div>
           <Image src={logo} alt="Ochi" />

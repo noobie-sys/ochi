@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className={style.footer}>
+    <div  className={style.footer}>
       <div className={`${style.footer_div_1}`}>
         <div className={`${style.footer_heading}`}>
           <h1>Eye-</h1>
@@ -56,11 +56,11 @@ const Footer = () => {
                 </div>
                 <div className={style.location}>
                   <h4>L:</h4>
-                  <div className={style.location_inner_div_1}>
+                  <div className={`${style.location_inner_div_1} ${style.hoverEffect}`}>
                     <Link href="#">202-1965 W 4th Ave</Link>
                     <Link href="#">Vancouver, Canada</Link>
                   </div>
-                  <div className={style.location_inner_div_2}>
+                  <div className={`${style.location_inner_div_2} ${style.hoverEffect}`}>
                     <Link href="#">30 Chukarina St</Link>
                     <Link href="#">Lviv, Ukraine</Link>
                   </div>

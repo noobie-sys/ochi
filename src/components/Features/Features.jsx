@@ -8,7 +8,7 @@ import image4 from '../../../public/image-2.png'
 
 const Features = () => {
   return (
-    <div className={style.features}>
+    <div  className={style.features}>
 
         <div className={style.feature__text}>
             <h1 className='text-8xl'>Featured Projects</h1>
@@ -19,7 +19,7 @@ const Features = () => {
             <Card image={image} heading={"FYDE"} dir={"left-full"} />
             <Card image={image2} heading={"VISE"} dir={"right-[80%]"} />
             <Card image={image3} heading={"Trawa"} dir={"left-full"} />
-            <Card image={image4} heading={"PremiumBlend"} dir={"right-[80%]"} />
+            <Card image={image4} heading={"Blend"} dir={"right-[60%]"} />
             </div>
         </div>
     </div>

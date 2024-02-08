@@ -5,7 +5,7 @@ import image from '../../../public/image.jpg'
 
 const About = () => {
   return (
-    <div className={`${style.about_element} `}>
+    <div  className={`${style.about_element} `}>
       <h1>
         Ochi is a strategic partner for fast-growing tech businesses that need
         to raise funds, sell products, explain complex ideas, and hire great

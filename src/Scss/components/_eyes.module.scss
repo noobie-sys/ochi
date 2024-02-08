@@ -2,47 +2,52 @@
 @import "../abstract/_typography";
 .eyes {
   width: 100%;
-  background-attachment: fixed;
+  height: 100vh;
   overflow: hidden;
-  background: url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg");
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  font-family: $neue;
   .eyes_element {
-    @include absCenter;
-    display: flex;
-    gap: 2vw;
-    .eye_ {
-      width: 12vw;
-      height: 12vw;
-      background-color: rgb(230, 231, 230);
-      border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background: url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: $neue;
+    .eye_balls{
       display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      .eye_white_space {
-        width: 66.6%;
-        height: 66.6%;
+      gap: 2vw;
+      @include absCenter;
+
+      .eye_ {
+        width: 12vw;
+        height: 12vw;
+        background-color: rgb(230, 231, 230);
         border-radius: 50%;
-        background-color: rgb(0, 0, 0);
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
-        transition: transform 0.2s linear;
-        .eye_white_space_inner {
-          width: 100%;
-          height: 3vh;
-          @include absCenter;
-          .eye_ball {
-            width: 3rem;
-            height: 3rem;
-            background-color: white;
-            border-radius: 50%;
+        .eye_white_space {
+          width: 66.6%;
+          height: 66.6%;
+          border-radius: 50%;
+          background-color: rgb(0, 0, 0);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          transition: transform 0.2s linear;
+          .eye_white_space_inner {
+            width: 100%;
+            height: 3vh;
+            @include absCenter;
+            .eye_ball {
+              width: 3rem;
+              height: 3rem;
+              background-color: white;
+              border-radius: 50%;
+            }
           }
         }
       }
