@@ -1,5 +1,6 @@
 import About from "@/components/About/About";
 import Eyes from "@/components/Eyes/Eyes";
+import Features from "@/components/Features/Features";
 import LandingPage from "@/components/LandingPage/LandingPage";
 import Navbar from "@/components/Navbar/Navbar";
 import Marquee from "@/components/marquee/Marquee";
@@ -13,6 +14,7 @@ export default function Home() {
         <Marquee />
         <About />
         <Eyes />
+        <Features />
       </section>
     </main>
   );

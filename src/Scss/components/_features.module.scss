@@ -1,0 +1,29 @@
+@import "../abstract/_typography";
+.features {
+    width: 100%;
+    font-family: $neue;
+    .feature__text {
+        width: 100%;
+        padding: 0 10rem;
+        border-bottom: 1px solid rgb(74, 74, 74);
+        padding: 4rem;
+        padding-bottom: 8rem;
+        h1 {
+            letter-spacing: -0.1rem;
+        }
+    }
+    .feature__card {
+        width: 100%;
+        padding: 6rem;
+        .feature__cards {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    }
+    
+    
+    
+
+}
