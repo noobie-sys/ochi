@@ -1,8 +1,28 @@
+
+$founders : "Test Founders Grotesk X-Condensed";
+$neue : "Neue Montreal";
+
 .navbar {
-    width: 100vw;
-    height: fit-content;
-    background-color: yellow;
-    color: black;
+    width: 100%;
+    padding: 10px 30px;
     font-size: 2rem;
+    font-family: $neue;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+    position: fixed;
+
+
+}
+.links {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    display: relative;
+}
+
+.link__item {
+    font-size: 1.9rem;
 }
 
