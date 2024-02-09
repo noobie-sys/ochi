@@ -8,7 +8,6 @@ import LandingPage from "@/components/LandingPage/LandingPage";
 import Navbar from "@/components/Navbar/Navbar";
 import Marquee from "@/components/marquee/Marquee";
 import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
 
 export default function Home() {
   useEffect(() => {
