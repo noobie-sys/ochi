@@ -1,7 +1,7 @@
 import React from "react";
 import style from "@/Scss/components/_about.module.scss";
 import Image from "next/image";
-import image from '../../../public/image.jpg'
+import image from '../../../public/aman2.jpeg'
 
 const About = () => {
   return (
