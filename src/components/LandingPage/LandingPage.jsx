@@ -2,6 +2,8 @@ import React from "react";
 import style from "@/Scss/components/landingPage.module.scss";
 import { FaArrowUpLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import aman from '../../../public/aman.jpg'
+import Image from "next/image";
 
 const LandingPage = () => {
   const heading__element = ["We Create", "eye-opening", "presentations"];
@@ -24,7 +26,9 @@ const LandingPage = () => {
                     ease: [0.76, 0, 0.24, 1],
                   }}
                   className={`${style.heading__box}`}
-                ></motion.div>
+                >
+                  <Image src={aman} width={'auto'} height={'auto'} alt="Aman" />
+                </motion.div>
               )}
               <div className="w-fit items-center flex">
                 <h1 className={`${style.landing__heading}`}>{el}</h1>
