@@ -30,7 +30,7 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 ## Tech Stack:
 
-Next.js
-Tailwind CSS
-Javascript
-SCSS
+ Next.js
+ Tailwind CSS 
+ Javascript
+ SCSS
